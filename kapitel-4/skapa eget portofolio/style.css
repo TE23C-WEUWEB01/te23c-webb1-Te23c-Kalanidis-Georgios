@@ -1,61 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fredericka+the+Great&family=Gugi&display=swap');
 
-
-/* Enkel CSS-reset */
+/* Reset */
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-*, *:before, *:after {
-   box-sizing: inherit;
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
-body, h1, h2, h3, h4, h5, h6, p, ul {
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
     margin: 0;
-padding: 0;
+    padding: 0;
 }
 
-
-body{
-background-color: rgb(4, 149, 252);
-background-image: url(./bilder/2-apollo-15-on-moon-1.webp);
+/* Bakgrund och layout */
+body {
+    background-color: rgb(4, 149, 252);
+    background-image: url(./bilder/2-apollo-15-on-moon-1.webp);
+    font-family: "Fredericka the Great", serif;
+    color: rgb(255, 255, 255);
 }
 
-/* Kontainers utseende*/
-.kontainer{
+.kontainer {
     width: 800px;
     padding: 30px;
     margin: auto;
-   font-family: "DotGothic16", sans-serif;
-   
 }
-h1{
-    font-family: "Gugi", sans-serif;
-    font-size: 120px;
+
+/* Navigeringsmeny */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rubriker */
+h1 {
+    font-family: "Fredericka the Great", serif;
+    font-size: 60px;
     text-align: center;
     margin-bottom: 20px;
 }
-h2{
-font-size: 30px;
-text-align: center;
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-/* Boxarnas utseende*/
-.ruta{
-background-color: #463195;
-color: white;
-padding: 50px;
-margin-bottom: 50px;
-border-radius: 20px;
+/* Boxar */
+.ruta1 {
+gap: 60px;
+    display: flex;
+    background-color: #9BA2FF;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
 }
-img{
-    width: 100% ;
-    margin-bottom: 20px;
-}
-h3{
 
+.ruta2 {
+    display: flex;
+    gap: 40px;
+    background-color: #A499BE;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
 }
-p{
 
+.ruta3 {
+    display: flex;
+    gap: 40px;
+    background-color: #9E8576;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
 }
-a{
 
+.ruta4 {
+    gap: 40px;
+    display: flex;
+    background-color: #7A542E;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Lista */
+.interests-list {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.interests-list li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Responsiv design */
+@media (max-width: 768px) {
+    .kontainer {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .ruta {
+        padding: 15px;
+    }
 }
