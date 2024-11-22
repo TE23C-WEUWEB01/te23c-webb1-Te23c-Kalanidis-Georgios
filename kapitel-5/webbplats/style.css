@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fredericka+the+Great&family=Gugi&family=Mogra&display=swap');
+
+
+
+/* Enkel CSS-reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+padding: 0;
+}
+
+/* Layoutens utseende */
+body{
+
+}
+.kontainer{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 800px;
+padding: 20px;
+margin: auto;
+background-color: #F2EFEA;
+
+}
+
+/* Menyns Utseende */
+ul{
+display: flex;
+justify-content: space-between;
+}
+li{
+list-style-type: none;
+}
+a{
+text-decoration: none;
+background-color: #66D7D1;
+color: #DBD56E;
+padding: 10px;
+border-radius: 3px;
+display: inline-block;
+width: 140px;
+text-align: center;
+
+
+}
+a:hover{
+    background-color: brown;
+}
+
+/* Innehållet */
+h1{
+    font-family: "Mogra", system-ui;
+    color: #FC7753;
+    font-size: 80px;
+}
+figure{
+background-color: white;
+padding: 30px;
+}
+img{
+width: 100%;
+}
+figcaption{
+
+}
+p{
+
+}
+.tack{
+
+}
+
