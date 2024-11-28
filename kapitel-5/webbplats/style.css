@@ -28,14 +28,14 @@ background-color: #F2EFEA;
 }
 
 /* Menyns Utseende */
-ul{
+.kontainer ul{
 display: flex;
 justify-content: space-between;
 }
-li{
+.kontainer ul li{
 list-style-type: none;
 }
-a{
+.kontainer ul a{
 text-decoration: none;
 background-color: #66D7D1;
 color: #DBD56E;
@@ -47,30 +47,34 @@ text-align: center;
 
 
 }
-a:hover{
+.kontainer ul a:hover{
     background-color: brown;
 }
 
 /* Innehållet */
-h1{
+.kontainer h1{
     font-family: "Mogra", system-ui;
     color: #FC7753;
     font-size: 80px;
 }
-figure{
+.kontainer figure{
 background-color: white;
 padding: 30px;
 }
-img{
+.kontainer figure img{
 width: 100%;
 }
-figcaption{
+.kontainer figure figcaption{
 
 }
-p{
+.kontainer p{
 
 }
-.tack{
+.kontainer .tack{
+
+}
+
+kontainer .tack a{
 
 }
 
