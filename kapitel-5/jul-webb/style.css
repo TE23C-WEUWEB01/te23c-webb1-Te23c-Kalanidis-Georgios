@@ -23,7 +23,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 width: 800px;
 padding: 20px;
 margin: auto;
-background-color: #F2EFEA;
+background-color: #66d77b
 
 }
 
@@ -37,10 +37,10 @@ list-style-type: none;
 }
 .kontainer ul a{
 text-decoration: none;
-background-color: #66D7D1;
-color: #DBD56E;
+background-color: red;
+color: #9e9e36;
 padding: 10px;
-border-radius: 3px;
+border-radius: 13px;
 display: inline-block;
 width: 140px;
 text-align: center;
@@ -58,17 +58,19 @@ text-align: center;
     font-size: 80px;
 }
 .kontainer figure{
-background-color: white;
+background-color: rgb(53, 172, 83);
 padding: 30px;
 }
 .kontainer figure img{
 width: 100%;
 }
-.kontainer figure figcaption{
 
-}
 .kontainer p{
-
+color: rgb(0, 0, 0);
 }
 
 
+
+
+   
+  
