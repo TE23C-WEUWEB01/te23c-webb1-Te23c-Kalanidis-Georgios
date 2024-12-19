@@ -1,0 +1,59 @@
+/* .ruta{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    animation: change 2s infinite;
+}
+@keyframes change {
+0% {
+    background-color: green;
+    transform: scale(1);
+    opacity: 0;
+}
+50% {
+    background-color: yellow;
+    transform: scale(1);
+    box-shadow: 0 0 20px ;
+    opacity: 1;
+    border-radius: 50%;
+}
+100%{
+    background-color: green;
+    transform: scale(1);
+    opacity: 0;
+}
+.heart{
+    font.size: 100px;
+    text-align: center;
+    animation: beats 3 infinite;
+}
+@keyframes beats{
+0 %{
+    transform: scale(1) translateX(0);
+}
+
+25%{
+    transform: scale(1) translateX(100px);
+}
+
+50%{
+    transform(2); translateX(0);
+}
+
+75%{
+    transform: scale(1) translateX(-100px);
+}
+
+
+100%{
+    transform: scale(1) translateX(0);
+}
+
+}
+ */
+ .smiley-1,.smiley-2,.smiley-3{
+    font-size: 100px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+ }
