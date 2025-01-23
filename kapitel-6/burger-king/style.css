@@ -93,7 +93,7 @@ body {
   cursor: pointer;
 }
 .innehall .kolumner-3 .burgare:hover{
-height: 300px;
+height: 400px;
 transition-duration: 500ms;
 }
 

@@ -1,0 +1,53 @@
+/* Enkel CSS-reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+padding: 0;
+}
+body{
+  background-image: url("./bilder/image-134.jpg");
+}
+
+.sidhuvud{}
+.sidhuvud .meny{}
+
+.sidhuvud .meny a{
+  padding: 40px;
+  color: white;
+}
+.sidhuvud .meny img{
+  padding left: 100px;
+  width: 200px;
+}
+.sida{
+   background-color: rgb(244, 234, 230);
+   padding-bottom: 250px;
+  
+   
+}
+
+innehall{
+}
+
+
+.innehall .produkter img{
+  width: 200px;
+}
+h1{
+  padding-left: 500px;
+}
+p1{
+  padding-left: 200px;
+  
+}
+.kolumner-4{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+
+}
