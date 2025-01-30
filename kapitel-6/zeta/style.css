@@ -9,45 +9,102 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
 padding: 0;
 }
-body{
+body {
   background-image: url("./bilder/image-134.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.sidhuvud {
+
+  padding: 20px;
+  text-align: center;
 }
 
-.sidhuvud{}
-.sidhuvud .meny{}
+.sidhuvud .meny {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; /* Add spacing between menu items */
+}
 
-.sidhuvud .meny a{
-  padding: 40px;
-  color: white;
+.sidhuvud .meny a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
 }
-.sidhuvud .meny img{
-  padding left: 100px;
-  width: 200px;
+
+.sidhuvud .meny img {
+  width: 150px; /* Adjust size of logo */
+  margin: 0 20px; /* Add spacing around the logo */
 }
-.sida{
-   background-color: rgb(244, 234, 230);
-   padding-bottom: 250px;
+.innehall {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.innehall h1 {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  position: relative;
+  top: -50px;
+}
+
+.innehall p {
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5;
+ 
+ 
   
-   
+}
+.innehall p1{
+  position: relative;
+  bottom: 120px;
+
+
+}
+.kolumner-4 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
-innehall{
+.produkter {
+  background-color: white;
+  border: 2px solid lightgray;
+  padding: 15px;
+  text-align: center;
+  width: 220px;
+  border-radius: 10px;
 }
 
 
-.innehall .produkter img{
-  width: 200px;
+.produkter img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
-h1{
-  padding-left: 500px;
-}
-p1{
-  padding-left: 200px;
-  
-}
-.kolumner-4{
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 20px;
 
+
+.produkter p {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+.sida {
+  background-color: rgb(254, 255, 249); /* Beige bakgrund */
+  padding: 40px 0;
+
+  width: 81%;
+  margin: 20px auto; /* Centrerar rutan */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga för snyggare design */
 }
