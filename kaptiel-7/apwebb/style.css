@@ -28,17 +28,50 @@ img {
 body{
     background-image: url("./bilder/chris-abney-qLW70Aoo8BE-unsplash.jpg");
 }
-.kontainer {
-    width: 1000px;
-    margin: auto;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-        "sidhuvud sidhuvud"
-        "innehall sidebar"
-        "sidfot sidofot";
+@media(min-width:576px) {
+    .kontainer {
+        width: 1000px;
+        margin: auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "innehall sidebar"
+            "sidfot sidofot";
+    }
 }
+
+@media(min-width:768px){
+    .kontainer {
+        width: 100%;
+        margin: auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "innehall sidebar"
+            "sidfot sidofot";
+    }
+}
+
+@media(min-width:1280px){
+    .kontainer {
+        width: 1280px;
+        margin: auto;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 3fr 1fr;
+        grid-template-areas:
+            "sidhuvud sidhuvud"
+            "innehall sidebar"
+            "sidfot sidofot";
+    }
+}
+
+
+
 header {
     grid-area: sidhuvud;
 }
