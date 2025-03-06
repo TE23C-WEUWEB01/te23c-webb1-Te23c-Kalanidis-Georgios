@@ -1,0 +1,25 @@
+.wanderer{
+    background: black;
+}
+.wanderer .vimeo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+}
+.wanderer .vimeo iframe{
+width: 100vw;
+height: 56.25vw;
+min-width: 230vh;
+min-height: 100vh;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: tr;
+
+
+}
