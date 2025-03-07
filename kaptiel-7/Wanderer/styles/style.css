@@ -1,3 +1,14 @@
+/* Enkel CSS-reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+padding: 0;
+}
 .wanderer{
     background: black;
 }
@@ -21,5 +32,18 @@ top: 50%;
 left: 50%;
 transform: tr;
 
+
+}
+.container{
+width: 800px;
+margin: 0 auto;
+}
+.container header{
+
+}
+.container header h1{
+
+}
+.container header nav{
 
 }
